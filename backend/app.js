@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
   origin: [
-    'https://aichatapp-phi.vercel.app',
+    'https://codemanttra.onrender.com',
     'http://localhost:3000',
     'http://localhost:5173'
   ],
